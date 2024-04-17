@@ -1,0 +1,19 @@
+x =int(input("How many items of food you want to order?"))
+order =[]
+
+for i in range(x):
+    if x>0:
+        y=input("Enter your food name:")
+        order.append(y)
+    else:
+       print("No order found.")
+def get_order(n=[]):
+    orderp =list(reversed(n))
+    orderd =list(reversed(n))
+    for i in range(len(orderp)): 
+        print("Preparing Your Order - " +orderp.pop())
+    print("The following orders have been dispatched.")
+    for i in range(len(orderd)):
+        print(orderd.pop())
+    
+get_order(order)
