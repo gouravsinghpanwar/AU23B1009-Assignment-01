@@ -1,0 +1,10 @@
+from ice_cream import*
+
+Scoop_Size= ["big", "medium", "small"]
+toppings= ["sprinkles","hot fudge","whipped cream","crushed nuts"]
+options= ["nuts","fruits"] 
+
+ice_cream_choice = add_topping(Scoop_Size,toppings)
+print("Your ice cream is now ready.")
+shake_choice = make_shake(options)
+print("Your shake is now ready.")
