@@ -1,0 +1,11 @@
+def add_topping(Scoop_Size,toppings):
+    print("Select yor scoop size -",Scoop_Size)
+    a=input()
+    print("Select your toppings -",toppings)
+    b=input("Enter your choice -")
+    return a,b
+
+def make_shake(options):
+    print("Select options for the shake -",options)
+    c=input("Enter your choice -")
+    return c
